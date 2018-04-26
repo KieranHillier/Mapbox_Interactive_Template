@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Average Household Income Compared to Amount of Kids</title>
+	<meta charset='utf-8' />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
+	<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+	<div id='map'></div>
+	<div id='title'>
+		<img src="http://www.investinontario.com/./sites/default/themes/invest2018/images/ontario-canada-wtwig.svg" alt="Ontario_Invesment_Office_Logo" id="logo"/>
+	</div>
+
+		<!-- toggle buttons -->
+		<div id="toggle">
+			<div id='income' tabindex="1" class='button active'>Income</div>
+			<div id='percentile' tabindex="2" class='button'>Percentile</div>
+			<div id='totalpop' tabindex="3" class='button'>Total Pop</div>
+		</div>
+	<!-- </div> -->
+
+	<!-- legend -->
+	<div id="legend-container">
+		<p id="layer-title">Average Household Income ($)</p>
+		<div id='legend'>
+		  <div class='color' id='color1'></div>
+		  <div class='text' id='text1'> 80 - 100</div>
+		  <div class='color' id='color2'></div>
+		  <div class='text' id='text2'> 80 - 100</div>
+		  <div class='color' id='color3'></div>
+		  <div class='text' id='text3'> 80 - 100</div>
+		  <div class='color' id='color4'></div>
+		  <div class='text' id='text4'> 80 - 100</div>
+		  <div class='color' id='color5'></div>
+		  <div class='text' id='text5'> 80 - 100</div>
+		  <div class='color' id='color6'></div>
+		  <div class='text' id='text6'> 80 - 100</div>
+		</div>
+	</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
