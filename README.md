@@ -6,3 +6,5 @@
 * Easily brandable
 
 Live Demo: https://kieranhillier.github.io/Mapbox_Interactive_Template/.
+
+![Image of Interactive Map](https://ibb.co/jPYKBT)
