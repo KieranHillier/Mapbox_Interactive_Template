@@ -7,4 +7,5 @@
 
 Live Demo: https://kieranhillier.github.io/Mapbox_Interactive_Template/.
 
-![Image of Interactive Map](https://ibb.co/jPYKBT)
+![Image of Interactive Map](https://image.ibb.co/fAvXWT/Screen_Shot_2018_05_24_at_12_48_07_PM.png)
+
