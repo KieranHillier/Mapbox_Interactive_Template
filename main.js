@@ -1,10 +1,10 @@
 //set access token that allows the use of 'mapboxgl' functions
-mapboxgl.accessToken = 'pk.eyJ1IjoibWVkdGVnaXMiLCJhIjoiY2o3bTE5OHBpMnR6YjMzbHg1dnN4anFncyJ9.EHZOmQ3AjxLvc8WTLeYWKg';
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2llcmFuaGlsbGllciIsImEiOiJjamJ6OWxhM2EzN2ttMndyNjM2cWF5cW5hIn0.bV3ZmvcRI97XOz5WpnWaCA';
 
 //declare map
 var map = new mapboxgl.Map({
 	container: 'map',
-	style: 'mapbox://styles/medtegis/cj905z4jy1be12rlaziec3mc7',    //mapbox://styles/medtegis/cj905z4jy1be12rlaziec3mc7 --- mapbox://styles/mapbox/light-v9
+	style: 'mapbox://styles/mapbox/light-v9',    //mapbox://styles/medtegis/cj905z4jy1be12rlaziec3mc7 --- mapbox://styles/mapbox/light-v9
 	center: [-79.389487, 43.662396],
 	zoom: 8.5,
 	maxZoom: 15,
